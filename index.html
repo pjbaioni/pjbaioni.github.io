@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Paolo Joseph Baioni — HPC & GPU Computing</title>
+<meta name="description" content="Paolo Joseph Baioni — HPC & GPU computing, scientific software.">
+
+<style>
+:root{
+  --bg:#0b0f17;
+  --panel:rgba(255,255,255,.05);
+  --border:rgba(255,255,255,.12);
+  --text:rgba(255,255,255,.92);
+  --muted:rgba(255,255,255,.65);
+  --accent:#7c5cff;
+  --accent2:#2ee9a6;
+  --radius:18px;
+  --maxw:980px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  background:
+    radial-gradient(1200px 900px at 10% -10%, rgba(124,92,255,.25), transparent 55%),
+    radial-gradient(900px 700px at 90% 10%, rgba(46,233,166,.18), transparent 60%),
+    var(--bg);
+  color:var(--text);
+}
+a{color:#a89bff;text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--maxw);margin:auto;padding:32px 20px 64px}
+.card{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:20px;
+  margin-top:16px;
+}
+h1{
+/* font-size:clamp(34px,4.6vw,48px); */
+  font-size:clamp(32px,4.4vw,44px);
+  line-height:1.1;
+  margin:10px 0 8px;
+  letter-spacing:-0.2px;
+}
+.tagline{
+  margin:0 0 10px;
+  color:rgba(255,255,255,.78);
+  font-weight:650;
+}
+h2{
+  font-size:18px;
+  margin:0 0 10px;
+}
+p{margin:0;line-height:1.65;color:var(--muted)}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.badge{
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.04);
+}
+.nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  margin-bottom:24px;
+}
+.nav a{font-size:13px;color:var(--muted)}
+.hero-actions{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+.btn{
+  padding:10px 14px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.05);
+  color:var(--text);
+  font-weight:600;
+}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:900px){.grid{grid-template-columns:1fr}}
+.item{margin-top:10px}
+footer{
+  margin-top:24px;
+  font-size:12px;
+  color:rgba(255,255,255,.45);
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:10px;
+}
+.hero{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+
+.avatar{
+  width:96px;
+  height:96px;
+  border-radius:50%;
+  object-fit:cover;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.04);
+}
+</style>
+</head>
+
+<body>
+<div class="wrap">
+
+<nav class="nav">
+  <strong>Paolo Joseph Baioni</strong>
+  <div>
+    <a href="#skills">Skills</a> ·
+    <a href="#experience">Experience</a> ·
+    <a href="#projects">Projects</a> ·
+    <a href="#links">Links</a> ·
+    <a href="#contacts">Contacts</a>
+  </div>
+</nav>
+
+<header class="card">
+  <div class="hero">
+    <img src="profile.jpg" alt="Paolo Joseph Baioni" class="avatar">
+
+    <div>
+      <p class="tagline">HPC &amp; GPU-Accelerated Scientific Computing · Applied Mathematics & Physics-Based Modelling</p>
+      <h1>Paolo Joseph Baioni</h1>
+<p>
+  PhD in Mathematical Models and Methods in Engineering, with a background in Applied
+  Mathematics (Mathematical Engineering, MSc) and Nuclear Engineering (MSc).
+</p>
+<p>
+  Research focused on massively parallel numerical methods and GPU-accelerated
+  scientific computing, with particular emphasis on GPU architectures and
+  performance-portable C++ software (C++20/23) for heterogeneous and distributed
+  Linux environments.
+</p>
+<p>
+  Experience includes the design of simulation codes portable across x86 and ARM CPU
+  architectures, as well as physics-based modelling. Actively involved in research,
+  teaching, and scientific dissemination.
+</p>
+
+      <div class="hero-actions">
+        <a class="btn" href="https://github.com/pjbaioni">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/paolo-joseph-baioni-29b887344/">LinkedIn</a>
+        <a class="btn" href="https://www.researchgate.net/profile/Paolo-Baioni">ResearchGate</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="card" id="skills">
+<h2>Key Skills</h2>
+<div class="badges">
+  <span class="badge">Modern C++ (C++20/23)</span>
+  <span class="badge">GPUs · CUDA · ROCm</span>
+  <span class="badge">MPI</span>
+  <span class="badge">STL · Thrust · Eigen · Boost</span>
+  <span class="badge">Linux · HPC Clusters</span>
+  <span class="badge">Spack · Apptainer</span>
+  <span class="badge">Git · GitHub</span>
+
+  <span class="badge">Numerical Methods</span>
+  <span class="badge">Physics-Based Modelling</span>
+  <span class="badge">Applied Mathematics</span>
+  <span class="badge">Nuclear Engineering</span>
+  <span class="badge">GNU Octave (Prototyping)</span>
+
+</div>
+<p style="margin-top:12px">
+  Focus on performance portability, GPU optimisation, benchmarking,
+  and maintainable R&amp;D-grade software, with applications to 
+  physics and engineering problems.
+</p>
+</section>
+
+<section class="card" id="experience">
+<h2>Experience</h2>
+
+<div class="item">
+  <strong>Technical Manager — MOX Lab, Politecnico di Milano</strong><br>
+  <span style="font-size:13px;color:rgba(255,255,255,.45)">2023–Present</span>
+  <p>
+    Technical lead for scientific computing infrastructure and software.
+    Design and renewal of HPC systems, GPU porting and optimisation,
+    Linux cluster deployment (PBS, Spack, Apptainer), and supervision.
+  </p>
+</div>
+
+<div class="item">
+  <strong>Graduate Teaching &amp; Supervision</strong><br>
+  <span style="font-size:13px;color:rgba(255,255,255,.45)">2022–Present</span>
+  <p>
+    Teaching assistant for MSc courses in Scientific Computing.
+    Advanced C++ and numerical labs; co-supervision of MSc and PhD theses
+    on GPU/HPC topics.
+  </p>
+</div>
+
+<div class="item">
+  <strong>Junior Researcher</strong><br>
+  <span style="font-size:13px;color:rgba(255,255,255,.45)">2021–2025</span>
+  <p>
+  PhD candidate researcher in university and industrial HPC, advanced simulation,
+  and digital twin research laboratories; design and implementation of numerical
+  methods, scientific software development, technical reports,
+  and contributions to conferences and peer-reviewed publications.
+  </p>
+</div>
+</section>
+
+<section class="card" id="projects">
+<h2>Selected Projects</h2>
+
+<div class="item">
+  <strong>HPC Infrastructure Renewal</strong>
+  <span style="font-size:13px;color:rgba(255,255,255,.45)"> — 2024–2025</span>
+  <p>
+  Design and deployment of modern, energy-efficient HPC servers for academic research.
+  Led a targeted infrastructure renewal initiative, securing internal funding to replace
+  low-performance legacy nodes with new multi-GPU systems, improving
+  memory capacity and accelerator availability for scientific workloads.
+  </p>
+</div>
+
+<div class="item">
+  <strong>GPU-Accelerated Material Point Method</strong>
+  <span style="font-size:13px;color:rgba(255,255,255,.45)"> — 2021–Present</span>
+  <p>
+    Massively parallel C++20 implementation for compressible flows,
+    targeting CPUs and GPUs with performance portability.
+  </p>
+  <p>
+    <a href="https://doi.org/10.1007/s40571-024-00864-2">DOI: 10.1007/s40571-024-00864-2</a><br>
+    <a href="https://rdcu.be/d20u2">Full text</a>
+  </p>
+</div>
+
+<div class="item">
+  <strong>Deep Learning from Scratch in C++</strong>
+  <span style="font-size:13px;color:rgba(255,255,255,.45)"> — 2020</span>
+  <p>
+    C++14 implementation of foundational deep-learning models using
+    Eigen and the C++ standard library.
+  </p>
+  <a href="https://github.com/pjbaioni/neural-net">Repository →</a>
+</div>
+
+</section>
+
+<section class="card" id="links">
+<h2>Links</h2>
+<p>
+  <a href="https://github.com/pjbaioni">github.com/pjbaioni</a><br>
+  <a href="https://www.linkedin.com/in/paolo-joseph-baioni-29b887344/">LinkedIn</a><br>
+  <a href="https://www.researchgate.net/profile/Paolo-Baioni">ResearchGate</a><br>
+  <a href="https://orcid.org/0009-0007-5338-4676">ORCID</a><br>
+  <a href="pjb_cv.pdf">CV (PDF)</a>
+</p>
+</section>
+
+<section class="card" id="contacts">
+<h2>Contacts</h2>
+<p>
+  <span id="mail-polimi">paolojoseph dot baioni at polimi dot it</span><br>
+  <span id="mail-gmail">paolojoseph dot baioni at gmail dot com</span>
+</p>
+</section>
+
+<footer>
+  <div>© <span id="year"></span> Paolo Joseph Baioni</div>
+  <div>GitHub Pages · HTML only</div>
+</footer>
+
+</div>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+
+(function(){
+  const u = "paolojoseph.baioni";
+  const polimi = document.getElementById("mail-polimi");
+  const gmail  = document.getElementById("mail-gmail");
+  if (polimi) polimi.innerHTML = '<a href="mailto:' + u + '@polimi.it">' + u + '@polimi.it</a>';
+  if (gmail)  gmail.innerHTML  = '<a href="mailto:' + u + '@gmail.com">' + u + '@gmail.com</a>';
+})();
+</script>
+
+</body>
+</html>
